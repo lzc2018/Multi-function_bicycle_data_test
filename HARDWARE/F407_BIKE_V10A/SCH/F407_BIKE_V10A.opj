@@ -106,6 +106,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (NRF24L01P-R
+      (FullPartName "NRF24L01P-R.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\IC.OLB")
+      (DeviceIndex "0"))
     (USB-A
       (FullPartName "USB-A.Normal")
       (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
@@ -200,10 +204,6 @@
     ("CONN RCPT 9x2"
       (FullPartName "CONN RCPT 9x2.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (LM75A
-      (FullPartName "LM75A.Normal")
-      (LibraryName "E:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -211,7 +211,7 @@
       (Path "Design Resources" ".\f407_bike_v10a.dsn")
       (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "13 POWER"))
+      (Select "Design Resources" ".\f407_bike_v10a.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -221,25 +221,36 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 286 1633 286 875")
-        (Scroll "285 275")
-        (Zoom "142")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1477 130 719")
+        (Scroll "-68 0")
+        (Zoom "71")
         (Occurrence "/"))
       (Path
          "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
       (Schematic "MAIN")
-      (Page "10 TFT"))
+      (Page "08 SENSOR"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1347 0 589")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 130 1477 130 719")
+        (Scroll "875 140")
+        (Zoom "284")
         (Occurrence "/"))
       (Path
          "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
       (Schematic "MAIN")
-      (Page "13 POWER"))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
+      (Page "02 MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1425 78 667")
+        (Scroll "1343 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
+      (Schematic "MAIN")
+      (Page "03 MODULE"))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
