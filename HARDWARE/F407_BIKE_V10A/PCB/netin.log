@@ -1,3 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro NETLIST IN Log File                                      )
+(                                                                     )
+(    Drawing          : F407_BIKE_V10A.brd                            )
+(    Software Version : 17.2S031                                      )
+(    Date/Time        : Wed Jan 24 20:18:39 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Jan 24 20:18:39 2018				Page     1
+
+
+
+
+Netlist File: 'H:/GitHub/Multi-function_bicycle_data_test/HARDWARE/F407_BIKE_V~
+10A/SCH/ALLEGRO/pxlBA.txt'      Physical Design File: 'H:/GitHub/Multi-functio~
+n_bicycle_data_test/HARDWARE/F407_BIKE_V10A/PCB/F407_BIKE_V10A.brd'
+
+===========================================================
+
 # pxlba generated file
 
 # pxlBA.txt : Extract file used to extract properties for
@@ -44,6 +66,11 @@ END
 
 # Function properties view. File: funcView.dat
 # In order to backannotate function properties you must
+Wed Jan 24 20:18:39 2018				Page     2
+
+
+
+
 # include FUNC_LOGICAL_PATH.
 #
 FUNCTION
@@ -95,6 +122,11 @@ COMP_REUSE_ID
 COMP_REUSE_NAME
 COMP_REUSE_INSTANCE
 END
+
+Wed Jan 24 20:18:39 2018				Page     3
+
+
+
 
 #
 # Signal properties view. File: netView.dat
@@ -148,6 +180,50 @@ NET_MIN_LINE_WIDTH
 NET_ECL_TEMP
 NET_NO_GLOSS
 NET_ROUTE_PRIORITY
+Wed Jan 24 20:18:39 2018				Page     4
+
+
+
+
 NET_NET_SPACING_TYPE
 NET_IMPEDANCE_RULE
 END
+
+
+
+===========================================================
+Starting gate assignment.     Wed Jan 24 20:18:39 2018
+ 
+Assigning gates of drawing H:/GitHub/Multi-function_bicycle_data_test/HARDWARE/F407_BIKE_V10A/PCB/F407_BIKE_V10A.brd
+
+Gates of differing rooms will not be assigned to the same component. 
+
+Gate assignment will use empty slots in existing components. 
+
+
+STEP I
+
+
+STEP II
+
+Finished with gate assignment.     Wed Jan 24 20:18:39 2018
+ 
+===========================================================
+
+===========================================================
+End of NETLIST IN Syntax/Logic Check
+===========================================================
+
+Total Netlist Warnings =  0.
+Total Netlist Errors   =  0.
+
+===========================================================
+
+Total Combined Netlist and Device File Warnings =  0.
+Total Combined Netlist and Device File Errors   =  0.
+
+===========================================================
+End of Allegro NETLIST IN Log
+===========================================================
+
+============= End of Device->STEP Mapping =============

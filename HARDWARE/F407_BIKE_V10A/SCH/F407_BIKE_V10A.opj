@@ -30,7 +30,8 @@
     (width_pages "100")
     (width_start "80")
     (width_End "80")
-    (IREFReportFile "G:\Ñ¸À×ÏÂÔØ\F407_PACK_V10B\SCH\F407_PACK_V10B.csv")
+    (IREFReportFile
+       "H:\GitHub\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.csv")
     (IREFViewOutput "0")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -40,7 +41,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "E:\GitHub\test.cc\45_STM32F407\F407_PACK_V10C\SCH\F407_PACK_V10C.DRC")
+       "H:\GitHub\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -85,7 +86,7 @@
     (BOM_View_Output "FALSE")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "E:\GITHUB\MBEDBOARD\F407_PACK_V10C\SCH\ALLEGRO")
+       "H:\GitHub\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\SCH\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -103,7 +104,20 @@
     (Netlist_TAB "0")
     (File ".\f407_bike_v10a.dsn"
       (Type "Schematic Design")))
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\f407_bike_v10a.csv"
+      (Type "Report"))
+    (File ".\f407_bike_v10a.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (ESP-WROOM-32
@@ -212,46 +226,14 @@
       (Path "Design Resources" ".\f407_bike_v10a.dsn")
       (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\f407_bike_v10a.dsn"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "07 POWER"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 373"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 234 1581 234 823")
-        (Scroll "737 807")
-        (Zoom "142")
-        (Occurrence "/"))
-      (Path
-         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
-      (Schematic "MAIN")
-      (Page "02 MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1399 52 641")
-        (Scroll "737 807")
-        (Zoom "142")
-        (Occurrence "/"))
-      (Path
-         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
-      (Schematic "MAIN")
-      (Page "07 POWER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1425 78 667")
-        (Scroll "2956 2469")
-        (Zoom "284")
-        (Occurrence "/"))
-      (Path
-         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
-      (Schematic "MAIN")
-      (Page "01 COVER"))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
+      (Tab 0))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
