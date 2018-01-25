@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-24-2018 at 20:42:17}
+{ Using PSTWRITER 17.2.0 d001Jan-25-2018 at 09:43:53}
 primitive 'AN9520-245_AN1003-1575_GPS1003-';
   pin
     '1':
@@ -534,30 +534,6 @@ primitive 'IND_BEAD_0805_600OHM_1_L3015_SW';
     VALUE='SWPA3015S2R2NT';
   end_body;
 end_primitive;
-primitive 'HOLD_1_HOLD250D134_HOLD';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Hold_1';
-    JEDEC_TYPE='HOLD250D134';
-    VALUE='Hold';
-  end_body;
-end_primitive;
-primitive 'MARKPOINT_MARKPOINT_R3_MARKPOIN';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MarkPoint';
-    JEDEC_TYPE='MARKPOINT_R3';
-    VALUE='MarkPoint';
-  end_body;
-end_primitive;
 primitive 'L14G1/TO_1_SOT23_123_S8050_NPN';
   pin
     'E':
@@ -915,7 +891,7 @@ primitive 'SWITCH-SPST-4P_SW-6X6X6_RST';
     VALUE='RST';
   end_body;
 end_primitive;
-primitive 'SWITCH-SPST-4P_SW-6X6X6-L_SW';
+primitive 'SWITCH-SPST-4P_SW-4P-5R4X4R5_SW';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -932,7 +908,7 @@ primitive 'SWITCH-SPST-4P_SW-6X6X6-L_SW';
   end_pin;
   body
     PART_NAME='SWITCH-SPST-4P';
-    JEDEC_TYPE='SW-6X6x6-L';
+    JEDEC_TYPE='SW-4P-5R4x4R5';
     VALUE='SW';
   end_body;
 end_primitive;

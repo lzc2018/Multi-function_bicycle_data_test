@@ -226,8 +226,7 @@
       (Path "Design Resources" ".\f407_bike_v10a.dsn")
       (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "07 POWER"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
