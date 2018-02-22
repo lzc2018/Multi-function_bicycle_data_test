@@ -223,16 +223,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "h:\github\multi-function_bicycle_data_test\hardware\f407_bike_v10a\sch\f407_bike_v10a.dsn")
-      (Path "Design Resources"
-         "h:\github\multi-function_bicycle_data_test\hardware\f407_bike_v10a\sch\f407_bike_v10a.dsn"
-         "MAIN")
+      (Path "Design Resources" ".\f407_bike_v10a.dsn")
+      (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"
-         "h:\github\multi-function_bicycle_data_test\hardware\f407_bike_v10a\sch\f407_bike_v10a.dsn"
-         "MAIN" "01 COVER"))
+      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "06 TFT"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -249,12 +244,34 @@
       (Path
          "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
       (Schematic "MAIN")
-      (Page "01 COVER"))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
+      (Page "01 COVER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 617 156 1329")
+        (Scroll "215 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
+      (Schematic "MAIN")
+      (Page "05 MEM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 643 182 1355")
+        (Scroll "50 0")
+        (Zoom "120")
+        (Occurrence "/"))
+      (Path
+         "H:\GITHUB\MULTI-FUNCTION_BICYCLE_DATA_TEST\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN")
+      (Schematic "MAIN")
+      (Page "04 SENSOR"))) >>>>>>> 1f942cfdecf2741bc72ee6013a9aa7418f98a8c5
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
     (Frame <<<<<<< HEAD
       (Placement "44 2 3 -1 -1 -8 -31 0 200 0 541"))
     (Tab 0))
-  (MPSSessionName "Administrator")
+  (MPSSessionName "xxxlzjxxx")
   (ISPCBBASICLICENSE "false"))
