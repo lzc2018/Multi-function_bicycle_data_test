@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Feb-22-2018 at 15:06:14 }
+{ Using PSTWRITER 17.2.0 d001Feb-25-2018 at 15:14:32 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "U17.3" ignored for U17: MAIN, 07 POWER (48.26, 53.34). Connecting pin to net "N16805400".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "U17.4" ignored for U17: MAIN, 07 POWER (48.26, 53.34). Connecting pin to net "N16805400".
@@ -18,7 +18,7 @@
 #16 WARNING(ORCAP-36038): "No_connect" property on Pin "U14.3" ignored for U14: MAIN, 05 MEM (109.22, 101.60). Connecting pin to net "GND".
 #17 WARNING(ORCAP-36038): "No_connect" property on Pin "USB1.4" ignored for USB1: MAIN, 07 POWER (81.28, 50.80). Connecting pin to net "N16812881".
 #18 WARNING(ORCAP-36038): "No_connect" property on Pin "U18.9" ignored for U18: MAIN, 07 POWER (205.74, 53.34). Connecting pin to net "N16803637".
-#19 WARNING(ORCAP-36006): Part Name "AN9520-245_AN1003-1575_GPS1003-1575" is renamed to "AN9520-245_AN1003-1575_GPS1003-".
+#19 WARNING(ORCAP-36006): Part Name "AN9520-245_GPS1003-1575_GPS1003-1575" is renamed to "AN9520-245_GPS1003-1575_GPS1003".
 #20 WARNING(ORCAP-36006): Part Name "PESD3V3S1UB_1_SOD-523_PESD3V3SIUB" is renamed to "PESD3V3S1UB_1_SOD-523_PESD3V3SI".
 #21 WARNING(ORCAP-36006): Part Name "CONN RCPT 4_HEADER4X1_2R54_HEADER4X1_2R54/NI" is renamed to "CONN RCPT 4_HEADER4X1_2R54_HEAD".
 #22 WARNING(ORCAP-36006): Part Name "IND_BEAD_0805_600OHM_200MA_LC0805_BEAD_BLM21PG600" is renamed to "IND_BEAD_0805_600OHM_200MA_LC08".

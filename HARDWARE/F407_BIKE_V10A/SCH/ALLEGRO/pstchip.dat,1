@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Feb-25-2018 at 15:14:33}
-primitive 'AN9520-245_GPS1003-1575_GPS1003';
+{ Using PSTWRITER 17.2.0 d001Feb-22-2018 at 15:06:15}
+primitive 'AN9520-245_AN1003-1575_GPS1003-';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11,7 +11,7 @@ primitive 'AN9520-245_GPS1003-1575_GPS1003';
   end_pin;
   body
     PART_NAME='AN9520-245';
-    JEDEC_TYPE='GPS1003-1575';
+    JEDEC_TYPE='AN1003-1575';
     VALUE='GPS1003-1575';
   end_body;
 end_primitive;
