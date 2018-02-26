@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Feb-26-2018 at 10:01:36 }
+{ Using PSTWRITER 17.2.0 d001Feb-26-2018 at 19:13:57 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='F407_BIKE_V10A';
@@ -514,6 +514,16 @@ SECTION_NUMBER 1
  '@F407_BIKE_V10A.MAIN(SCH_1):INS16864683@DISCRETE.CAP NP.NORMAL(CHIPS)':
  C_PATH='@f407_bike_v10a.main(sch_1):ins16864683@discrete.\cap np.normal\(chips)',
  P_PATH='@f407_bike_v10a.main(sch_1):page6_ins16864683@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C58 'CAP NP_2_CC0603_0.1UF_50V':;
+
+SECTION_NUMBER 1
+ '@F407_BIKE_V10A.MAIN(SCH_1):INS16873571@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@f407_bike_v10a.main(sch_1):ins16873571@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@f407_bike_v10a.main(sch_1):page4_ins16873571@mk60_ytai_v41b.\cap np_2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
