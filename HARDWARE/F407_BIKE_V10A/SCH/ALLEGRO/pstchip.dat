@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Feb-25-2018 at 15:14:33}
+{ Using PSTWRITER 17.2.0 d001Feb-26-2018 at 10:01:36}
 primitive 'AN9520-245_GPS1003-1575_GPS1003';
   pin
     '1':
@@ -888,25 +888,19 @@ primitive 'R_GENERIC_RC0603_10K/NI';
     VALUE='10K/NI';
   end_body;
 end_primitive;
-primitive 'SWITCH-SPST-4P_SW-6X6X6_RST';
+primitive 'SW PUSHBUTTON_0_KEY_SMD_2_KEY';
   pin
     '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='SWITCH-SPST-4P';
-    JEDEC_TYPE='SW-6X6x6';
-    VALUE='RST';
+    PART_NAME='SW PUSHBUTTON_0';
+    JEDEC_TYPE='key_smd_2';
+    VALUE='KEY';
   end_body;
 end_primitive;
 primitive 'SWITCH-SPST-4P_SW-4P-5R4X4R5_SW';

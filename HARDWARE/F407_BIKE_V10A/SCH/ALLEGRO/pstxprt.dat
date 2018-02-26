@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Feb-25-2018 at 15:14:33 }
+{ Using PSTWRITER 17.2.0 d001Feb-26-2018 at 10:01:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='F407_BIKE_V10A';
@@ -1498,12 +1498,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- SW1 'SWITCH-SPST-4P_SW-6X6X6_RST':;
+ S1 'SW PUSHBUTTON_0_KEY_SMD_2_KEY':;
 
 SECTION_NUMBER 1
- '@F407_BIKE_V10A.MAIN(SCH_1):INS11690416@XXXLZJXXX.SWITCH-SPST-4P.NORMAL(CHIPS)':
- C_PATH='@f407_bike_v10a.main(sch_1):ins11690416@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
- P_PATH='@f407_bike_v10a.main(sch_1):page2_ins11690416@xxxlzjxxx.\switch-spst-4p.normal\(chips)',
+ '@F407_BIKE_V10A.MAIN(SCH_1):INS16871282@MK60_SWTH_V10A.SW PUSHBUTTON_0.NORMAL(CHIPS)':
+ C_PATH='@f407_bike_v10a.main(sch_1):ins16871282@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
+ P_PATH='@f407_bike_v10a.main(sch_1):page2_ins16871282@mk60_swth_v10a.\sw pushbutton_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

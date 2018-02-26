@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Feb-25-2018 at 15:14:32 }
+{ Using PSTWRITER 17.2.0 d001Feb-26-2018 at 10:01:35 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "U17.3" ignored for U17: MAIN, 07 POWER (48.26, 53.34). Connecting pin to net "N16805400".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "U17.4" ignored for U17: MAIN, 07 POWER (48.26, 53.34). Connecting pin to net "N16805400".
