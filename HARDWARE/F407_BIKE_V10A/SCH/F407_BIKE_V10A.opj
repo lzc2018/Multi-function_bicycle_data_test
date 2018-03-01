@@ -103,7 +103,8 @@
     ("Allegro Netlist User Defined Property" "FALSE")
     (Netlist_TAB "0")
     (File ".\f407_bike_v10a.dsn"
-      (Type "Schematic Design")))
+      (Type "Schematic Design"))
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\f407_bike_v10a.csv"
       (Type "Report"))
@@ -227,7 +228,7 @@
       (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\f407_bike_v10a.dsn"))
+      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "02 MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -240,5 +241,5 @@
     (Frame <<<<<<< HEAD
       (Placement "44 2 3 -1 -1 -8 -31 0 200 0 541"))
     (Tab 0))
-  (MPSSessionName "xxxlzjxxx")
+  (MPSSessionName "LZC")
   (ISPCBBASICLICENSE "false"))

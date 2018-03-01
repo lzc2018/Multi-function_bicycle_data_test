@@ -1,0 +1,12 @@
+# Cadence Design Systems, Inc.
+# Allegro PCB Router Automatic Router
+# Allegro PCB Router v17-2-50 made 2016/03/28 at 15:56:36
+# Running on host 
+# 
+#            Command Line Parameters
+#            -----------------------
+# Design File Name : E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\SCH\F407_BIKE_V10A.DSN
+# No "-do" or "-docmd" switches specified on command line.
+# Status File Name : E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\SCH\monitor.sts
+quit -c
+quit -c

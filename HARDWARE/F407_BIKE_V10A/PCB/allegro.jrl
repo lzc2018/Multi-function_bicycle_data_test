@@ -1,0 +1,55 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Feb 27 22:18:35 2018
+\t (00:00:01)         Host=LZC User=LZC Pid=4352 CPUs=4
+\t (00:00:01) CmdLine= f:\cadence\spb_17.2\tools\bin\allegro.exe E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\PCB\F407_BIKE_V10A.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: E:/github/Multi-function_bicycle_data_test/HARDWARE/F407_BIKE_V10A/PCB/F407_BIKE_V10A.brd
+\i (00:00:03) trapsize 16458
+\i (00:00:03) trapsize 17065
+\i (00:00:03) trapsize 22124
+\i (00:00:04) trapsize 21882
+\i (00:00:04) generaledit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -2.2223 67.2210
+\i (00:00:05) trapsize 10941
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -2.0034 67.2210
+\i (00:00:05) trapsize 5470
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 30.7100 82.4289
+\i (00:00:07) trapsize 2735
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 30.7100 82.4290
+\i (00:00:07) trapsize 1368
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 31.6673 80.9246
+\i (00:00:07) trapsize 2735
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 31.6674 80.9246
+\i (00:00:07) trapsize 5470
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 31.6673 80.9247
+\i (00:00:07) trapsize 10941
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 46.7931 80.7058
+\i (00:00:07) trapsize 21882
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -3.9729 12.0788
+\i (00:00:08) trapsize 10941
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -1.7847 12.0788
+\i (00:00:08) trapsize 5470
+\i (00:00:10) exit 
+\t (00:00:10)     Journal end - Tue Feb 27 22:18:44 2018

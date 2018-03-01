@@ -1,0 +1,152 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Feb 27 22:14:33 2018
+\t (00:00:01)         Host=LZC User=LZC Pid=2348 CPUs=4
+\t (00:00:01) CmdLine= f:\cadence\spb_17.2\tools\bin\allegro.exe E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\PCB\F407_BIKE_V10A.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: E:/github/Multi-function_bicycle_data_test/HARDWARE/F407_BIKE_V10A/PCB/F407_BIKE_V10A.brd
+\i (00:00:03) trapsize 16458
+\i (00:00:03) trapsize 17065
+\i (00:00:04) trapsize 22124
+\i (00:00:04) trapsize 20964
+\i (00:00:04) trapsize 47619
+\i (00:00:04) trapsize 21882
+\i (00:00:04) generaledit 
+\i (00:00:08) show measure 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -14.0385 19.9562
+\i (00:00:09) trapsize 10941
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -2.4411 -4.1138
+\i (00:00:09) trapsize 5470
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -2.4410 -4.1138
+\i (00:00:09) trapsize 2735
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -2.4410 -4.1138
+\i (00:00:09) trapsize 1368
+\i (00:00:11) pick grid -0.1980 0.0164
+\t (00:00:11) last pick:  -0.2000 0.0000
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -2.7145 -1.7341
+\i (00:00:11) trapsize 2735
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -2.7144 -1.8983
+\i (00:00:11) trapsize 5470
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -2.7144 -1.8983
+\i (00:00:11) trapsize 10941
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -2.7144 -1.8982
+\i (00:00:11) trapsize 21882
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -0.0341 84.7265
+\i (00:00:12) trapsize 10941
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 0.1847 84.9453
+\i (00:00:12) trapsize 5470
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 0.1848 84.9453
+\i (00:00:12) trapsize 2735
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 1.6619 87.5164
+\i (00:00:13) trapsize 1368
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 1.6619 87.5438
+\i (00:00:13) trapsize 684
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 1.6756 87.5575
+\i (00:00:13) trapsize 342
+\i (00:00:14) pick grid 1.7714 87.0037
+\t (00:00:14) last pick:  1.8000 87.0000
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.1680 87.9952
+\i (00:00:15) trapsize 684
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.1679 87.9952
+\i (00:00:15) trapsize 1368
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.1680 87.9952
+\i (00:00:15) trapsize 2735
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.1679 87.9952
+\i (00:00:15) trapsize 5470
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 2.1679 87.9951
+\i (00:00:15) trapsize 10941
+\i (00:03:06) setwindow text
+\i (00:03:06) close 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out -19.7139 52.1089
+\i (00:03:08) trapsize 21882
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in -18.4149 38.3370
+\i (00:03:09) trapsize 10941
+\i (00:03:10) zoom in 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom in -9.4433 42.7134
+\i (00:03:10) trapsize 5470
+\i (00:03:15) dimension edit 
+\i (00:03:16) prepopup -5.2857 59.8907
+\i (00:03:19) pop dyn_option_select '@:@Linear dimension' 
+\t (00:03:19) Pick an element or point to dimension ...
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out -6.3798 49.9344
+\i (00:03:21) trapsize 10941
+\i (00:03:22) zoom in 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom in -1.5658 0.0439
+\i (00:03:22) trapsize 5470
+\i (00:03:22) zoom in 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom in -1.5658 0.0439
+\i (00:03:22) trapsize 2735
+\i (00:03:22) zoom in 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom in -1.5657 0.0440
+\i (00:03:22) trapsize 1368
+\i (00:03:23) pick grid -0.1433 -0.1474
+\t (00:03:23) last pick:  -0.1000 -0.1000
+\t (00:03:23) First point found ... pick the second point.
+\i (00:03:24) pick grid -0.1160 6.4992
+\t (00:03:24) last pick:  -0.1000 6.5000
+\t (00:03:24) Indicate the X or Y direction first.
+\i (00:03:25) pick grid -2.9606 3.4357
+\t (00:03:25) last pick:  -3.0000 3.4000
+\t (00:03:25) Pick location for the dimension value.
+\i (00:03:25) zoom out 1 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) zoom out -1.7571 3.4357
+\i (00:03:25) trapsize 2735
+\i (00:03:27) prepopup -3.1248 3.2169
+\i (00:03:32) prepopup -4.0001 12.6808
+\i (00:03:33) cancel 
+\i (00:03:33) generaledit 
+\i (00:03:35) exit 
+\e (00:03:35) Do you want to save the changes you made to F407_BIKE_V10A.brd?
+\i (00:03:36) fillin no 
+\t (00:03:36)     Journal end - Tue Feb 27 22:18:08 2018
