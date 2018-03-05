@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -662,6 +662,11 @@
               <FileName>lcd.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HAREWARE\LCD\lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\ADC\adc.c</FilePath>
             </File>
           </Files>
         </Group>
