@@ -68,7 +68,7 @@ u8 My_RTC_Init(void)
     RTC_Init(&RTC_InitStructure);
  
 		RTC_Set_Time(23,59,56,RTC_H12_AM);	//设置时间
-		RTC_Set_Date(14,5,5,1);		//设置日期
+		RTC_Set_Date(18,3,6,2);		//设置日期
 	 
 		RTC_WriteBackupRegister(RTC_BKP_DR0,0x5050);	//标记已经初始化过了
 	} 

@@ -146,11 +146,11 @@ void opt_delay(u8 i)
 //返回值:此点的颜色
 u16 LCD_ReadPoint(u16 x,u16 y)
 {
- 	u16 r=0,g=0,b=0;
+ 	u16 r=0,g=0;
 	if(x>=lcddev.width||y>=lcddev.height)return 0;	//超过了范围,直接返回				   
 	LCD_SetCursor(x,y);	    
 	LCD_WR_REG(0X2E);						//其他IC发送读GRAM指令
-	b=LCD_RD_DATA(); 
+	//b=LCD_RD_DATA(); 
 	g=r&0XFF;		//对于9341/5310/5510,第一次读取的是RG的值,R在前,G在后,各占8位
 	g<<=8;
 	
@@ -185,7 +185,7 @@ void LCD_Scan_Dir(u8 dir)
 {
 	u16 regval=0;
 	u16 dirreg=0;
-	u16 temp;  
+	//u16 temp; 
 	
 	switch(dir)
 	{
