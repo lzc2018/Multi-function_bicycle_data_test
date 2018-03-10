@@ -22,17 +22,56 @@ Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
 E:\github\Multi-function_bicycle_data_test\SOFTWARE\STM32F407ZET6\USER\Template.uvprojx
-Project File Date:  03/08/2018
+Project File Date:  03/10/2018
 
 <h2>Output:</h2>
 Build target 'Template'
-"..\OBJ\Template.axf" - 0 Error(s), 0 Warning(s).
+compiling bmp.c...
+..\HAREWARE\BMP180\bmp.c(18): warning:  #223-D: function "IIC_SendByte" declared implicitly
+      IIC_ComFlag = IIC_SendByte(BMP180_SlaveAddr);   //slave address+W:0
+..\HAREWARE\BMP180\bmp.c(26): warning:  #223-D: function "IIC_ReadByte" declared implicitly
+          temp = IIC_ReadByte();                       //读数据
+..\HAREWARE\BMP180\bmp.c(27): warning:  #223-D: function "IIC_SendACK" declared implicitly
+          IIC_SendACK(1);                
+..\HAREWARE\BMP180\bmp.c(44): warning:  #223-D: function "IIC_SendByte" declared implicitly
+      IIC_ComFlag = IIC_SendByte(BMP180_SlaveAddr);
+..\HAREWARE\BMP180\bmp.c(50): warning:  #223-D: function "IIC_ReadByte" declared implicitly
+          MSB = IIC_ReadByte();       //先读高位
+..\HAREWARE\BMP180\bmp.c(51): warning:  #223-D: function "IIC_SendACK" declared implicitly
+          IIC_SendACK(0);         //ACK
+..\HAREWARE\BMP180\bmp.c(64): warning:  #223-D: function "IIC_SendByte" declared implicitly
+      IIC_SendByte(BMP180_SlaveAddr);   //slave address+W:0
+..\HAREWARE\BMP180\bmp.c(86): warning:  #223-D: function "printf" declared implicitly
+      printf("AC1:%d \r\n",AC1);
+..\HAREWARE\BMP180\bmp.c(108): warning:  #223-D: function "printf" declared implicitly
+      printf("UT:%ld \r\n",UT);
+..\HAREWARE\BMP180\bmp.c(123): warning:  #223-D: function "printf" declared implicitly
+      printf("UP:%ld \r\n",UP);
+..\HAREWARE\BMP180\bmp.c(149): warning:  #223-D: function "printf" declared implicitly
+        printf("Temperature:%.1f \r\n",True_Temp);
+..\HAREWARE\BMP180\bmp.c(171): warning:  #223-D: function "pow" declared implicitly
+      True_Altitude = 44330*(1-pow((P/101325.0),(1.0/5.255)));           
+..\HAREWARE\BMP180\bmp.c: 12 warnings, 0 errors
+linking...
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Init multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Start multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Stop multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Wait_Ack multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Ack multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_NAck multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Send_Byte multiply defined (by bmp.o and iic.o).
+..\OBJ\Template.axf: Error: L6200E: Symbol IIC_Read_Byte multiply defined (by bmp.o and iic.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 8 error messages.
+"..\OBJ\Template.axf" - 8 Error(s), 12 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   E:\github\Multi-function_bicycle_data_test\SOFTWARE\STM32F407ZET6\USER\RTE
   F:\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
 
 <h2>Collection of Component Files used:</h2>
+Target not created.
 </pre>
 </body>
 </html>

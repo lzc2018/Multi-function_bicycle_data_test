@@ -808,7 +808,7 @@
 
   <Group>
     <GroupName>HAREWARE</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -913,6 +913,19 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\HAREWARE\SD\sdio_sdcard.c</PathWithFileName>
       <FilenameWithoutPath>sdio_sdcard.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>52</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HAREWARE\BMP180\bmp.c</PathWithFileName>
+      <FilenameWithoutPath>bmp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

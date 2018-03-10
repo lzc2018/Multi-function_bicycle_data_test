@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD;..\HAREWARE\BMP180</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -687,6 +687,11 @@
               <FileName>sdio_sdcard.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HAREWARE\SD\sdio_sdcard.c</FilePath>
+            </File>
+            <File>
+              <FileName>bmp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\BMP180\bmp.c</FilePath>
             </File>
           </Files>
         </Group>
