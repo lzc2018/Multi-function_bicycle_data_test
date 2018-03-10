@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -682,6 +682,11 @@
               <FileName>iic.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HAREWARE\IIC\iic.c</FilePath>
+            </File>
+            <File>
+              <FileName>sdio_sdcard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\SD\sdio_sdcard.c</FilePath>
             </File>
           </Files>
         </Group>
