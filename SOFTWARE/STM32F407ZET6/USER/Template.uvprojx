@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD;..\HAREWARE\BMP180</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD;..\HAREWARE\BMP180;..\HAREWARE\NRF24L01;..\HAREWARE\SPI;..\HAREWARE\W25Q128</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -692,6 +692,21 @@
               <FileName>bmp.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HAREWARE\BMP180\bmp.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\SPI\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>24l01.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\NRF24L01\24l01.c</FilePath>
+            </File>
+            <File>
+              <FileName>w25qxx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\W25Q128\w25qxx.c</FilePath>
             </File>
           </Files>
         </Group>

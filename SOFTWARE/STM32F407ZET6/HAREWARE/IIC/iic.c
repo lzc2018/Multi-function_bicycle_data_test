@@ -1,6 +1,17 @@
 #include "iic.h"
 #include "delay.h"
-
+//////////////////////////////////////////////////////////////////////////////////	 
+//本程序只供学习使用，未经作者许可，不得用于其它任何用途
+//ALIENTEK STM32F407开发板
+//IIC 驱动代码	   
+//正点原子@ALIENTEK
+//技术论坛:www.openedv.com
+//创建日期:2014/5/6
+//版本：V1.0
+//版权所有，盗版必究。
+//Copyright(C) 广州市星翼电子科技有限公司 2014-2024
+//All rights reserved									  
+////////////////////////////////////////////////////////////////////////////////// 	
 
 //初始化IIC
 void IIC_Init(void)
@@ -41,6 +52,9 @@ void IIC_Stop(void)
 	IIC_SDA=1;//发送I2C总线结束信号
 	delay_us(4);							   	
 }
+//等待应答信号到来
+//返回值：1，接收应答失败
+//        0，接收应答成功
 u8 IIC_Wait_Ack(void)
 {
 	u8 ucErrTime=0;
@@ -80,7 +94,7 @@ void IIC_NAck(void)
 	IIC_SCL=1;
 	delay_us(2);
 	IIC_SCL=0;
-}		
+}					 				     
 //IIC发送一个字节
 //返回从机有无应答
 //1，有应答
@@ -121,47 +135,6 @@ u8 IIC_Read_Byte(unsigned char ack)
         IIC_Ack(); //发送ACK   
     return receive;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
