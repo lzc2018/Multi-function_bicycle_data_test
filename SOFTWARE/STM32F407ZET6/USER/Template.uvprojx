@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD;..\HAREWARE\BMP180;..\HAREWARE\NRF24L01;..\HAREWARE\SPI;..\HAREWARE\W25Q128</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\FWLIB\inc;..\HAREWARE\LED;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\ADC;..\HAREWARE\RTC;..\HAREWARE\BEEP;..\HAREWARE\IIC;..\HAREWARE\SD;..\HAREWARE\BMP180;..\HAREWARE\NRF24L01;..\HAREWARE\SPI;..\HAREWARE\W25Q128;..\HAREWARE\GPS;..\HAREWARE\USART3;..\HAREWARE\TIMER</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -707,6 +707,21 @@
               <FileName>w25qxx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HAREWARE\W25Q128\w25qxx.c</FilePath>
+            </File>
+            <File>
+              <FileName>gps.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\GPS\gps.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\USART3\usart3.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HAREWARE\TIMER\timer.c</FilePath>
             </File>
           </Files>
         </Group>

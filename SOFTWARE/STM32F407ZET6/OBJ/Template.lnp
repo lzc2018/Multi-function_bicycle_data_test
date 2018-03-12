@@ -53,6 +53,9 @@
 "..\obj\spi.o"
 "..\obj\24l01.o"
 "..\obj\w25qxx.o"
+"..\obj\gps.o"
+"..\obj\usart3.o"
+"..\obj\timer.o"
 --strict --scatter "..\OBJ\Template.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
