@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HAREWARE\ADC;..\HAREWARE\BEEP;..\HAREWARE\BMP180;..\HAREWARE\GPS;..\HAREWARE\IIC;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\LED;..\HAREWARE\NRF24L01;..\HAREWARE\RTC;..\HAREWARE\SD;..\HAREWARE\SPI;..\HAREWARE\TIMER;..\HAREWARE\USART3;..\HAREWARE\W25Q128</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\FWLIB\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HAREWARE\ADC;..\HAREWARE\BEEP;..\HAREWARE\BMP180;..\HAREWARE\GPS;..\HAREWARE\IIC;..\HAREWARE\KEY;..\HAREWARE\LCD;..\HAREWARE\LED;..\HAREWARE\NRF24L01;..\HAREWARE\RTC;..\HAREWARE\SD;..\HAREWARE\SPI;..\HAREWARE\TIMER;..\HAREWARE\USART3;..\HAREWARE\W25Q128;..\MALLOC</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -712,6 +712,16 @@
               <FileName>startup_stm32f40_41xxx.s</FileName>
               <FileType>2</FileType>
               <FilePath>..\CORE\startup_stm32f40_41xxx.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MALLOC</GroupName>
+          <Files>
+            <File>
+              <FileName>malloc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MALLOC\malloc.c</FilePath>
             </File>
           </Files>
         </Group>
