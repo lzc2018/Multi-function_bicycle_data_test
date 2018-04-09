@@ -122,33 +122,33 @@ int main(void)
 			case 11:LCD_Clear(BROWN);break;
 		}
 		POINT_COLOR=RED;	  
-		LCD_ShowString(30,40,210,24,24,"Explorer STM32F4");	
-		LCD_ShowString(30,70,200,16,16,"TFTLCD TEST");
-		LCD_ShowString(30,90,200,16,16,"ATOM@ALIENTEK");
- 		LCD_ShowString(30,110,200,16,16,lcd_id);		//显示LCD ID	      					 
-	  LCD_ShowString(30,130,200,16,16,"KEY1:Upload NMEA Data SW");
-		LCD_ShowString(30,150,200,16,16,"NMEA Data Upload:OFF");  		
-		LCD_ShowString(30,190,200,16,16,"KEY0:Read Sector 0");
+		LCD_ShowString(30,20,210,24,24,"LZC STM32F4");	
+		LCD_ShowString(30,50,200,16,16,"TFTLCD TEST");
+		
+ 		LCD_ShowString(30,70,200,16,16,lcd_id);		//显示LCD ID	      					 
+	  LCD_ShowString(30,90,200,16,16,"KEY1:Upload NMEA Data SW");
+		LCD_ShowString(30,110,200,16,16,"NMEA Data Upload:OFF");  		
+		LCD_ShowString(30,150,200,16,16,"KEY0:Read Sector 0");
 		while(SD_Init())//检测不到SD卡
 	{
-		LCD_ShowString(30,190,200,16,16,"SD Card Error!");
+		LCD_ShowString(30,150,200,16,16,"SD Card Error!");
 		delay_ms(500);					
-		LCD_ShowString(30,190,200,16,16,"Please Check! ");
+		LCD_ShowString(30,150,200,16,16,"Please Check! ");
 		delay_ms(500);
 		LED0=!LED0;//DS0闪烁
 	}
 	show_sdcard_info();	//打印SD卡相关信息
  	POINT_COLOR=BLUE;	//设置字体为蓝色 
 	//检测SD卡成功 											    
-	LCD_ShowString(30,210,200,16,16,"SD Card OK    ");
-	LCD_ShowString(30,230,200,16,16,"SD Card Size:     MB");
-	LCD_ShowNum(30+13*8,210,SDCardInfo.CardCapacity>>20,5,16);//显示SD卡容量
+	LCD_ShowString(30,170,200,16,16,"SD Card OK    ");
+	LCD_ShowString(30,190,200,16,16,"SD Card Size:     MB");
+	LCD_ShowNum(30+13*8,190,SDCardInfo.CardCapacity>>20,5,16);//显示SD卡容量
 		
 	  x++;
 		if(x==12)x=0;
 		
 		POINT_COLOR=BLUE;//设置字体为蓝色      
-	LCD_ShowString(30,170,200,16,16,"TEMPERATE: 00.00C");//先在固定位置显示小数点	
+	LCD_ShowString(30,130,200,16,16,"TEMPERATE: 00.00C");//先在固定位置显示小数点	
 
 	if(Ublox_Cfg_Rate(1000,1)!=0)	//设置定位信息更新速度为1000ms,顺便判断GPS模块是否在位. 
 	{
@@ -174,11 +174,11 @@ int main(void)
 			if(temp<0)
 			{
 				temp=-temp;
-				LCD_ShowString(30+10*8,170,16,16,16,"-");	    //显示负号
-			}else LCD_ShowString(30+10*8,170,16,16,16," ");	//无符号
+				LCD_ShowString(30+10*8,130,16,16,16,"-");	    //显示负号
+			}else LCD_ShowString(30+10*8,130,16,16,16," ");	//无符号
 		
-			LCD_ShowxNum(30+11*8,170,temp/100,2,16,0);		//显示整数部分
-			LCD_ShowxNum(30+14*8,170,temp%100,2,16,0);		//显示小数部分 
+			LCD_ShowxNum(30+11*8,130,temp/100,2,16,0);		//显示整数部分
+			LCD_ShowxNum(30+14*8,130,temp%100,2,16,0);		//显示小数部分 
 			
 			
 			
