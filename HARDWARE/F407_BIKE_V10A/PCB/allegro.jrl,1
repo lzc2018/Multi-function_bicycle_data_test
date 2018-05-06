@@ -1,18 +1,119 @@
-\t (00:00:04) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Mon Apr 09 10:13:29 2018
-\t (00:00:04)         Host=LZC User=LZC Pid=13824 CPUs=4
-\t (00:00:04) CmdLine= f:\cadence\spb_17.2\tools\bin\allegro.exe E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\PCB\F407_BIKE_V10A.brd
-\t (00:00:04) 
-   (00:00:04) Loading axlcore.cxt 
-\e (00:00:11) Retrieval of 'Allegro_studio' license failed: 'ERROR (LMF-13015): License call failed for feature PCB_design_studio. The license server search path is defined as <none>. The FLEXnet error message is as follows,
-    FLEXnet ERROR(-15, 234, 10061): Cannot connect to license server system.
-
-Run 'lic_error LMF-13015' for more information.'. Report the licenses in use log via the menu item File->Viewlog: license_use.log
-\i (00:00:17) fillin confirm
-\i (00:12:05) fillin Allegro_performance    
-\e (00:12:11) Retrieval of 'Allegro_studio' license failed: 'ERROR (LMF-13015): License call failed for feature PCB_design_studio. The license server search path is defined as <none>. The FLEXnet error message is as follows,
-    FLEXnet ERROR(-15, 234, 10061): Cannot connect to license server system.
-
-Run 'lic_error LMF-13015' for more information.'. Report the licenses in use log via the menu item File->Viewlog: license_use.log
-\i (00:12:12) fillin confirm
-\t (00:12:12)     Journal end - Mon Apr 09 10:25:37 2018
+\t (00:00:08) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Wed May 02 15:16:36 2018
+\t (00:00:08)         Host=LZC User=LZC Pid=6124 CPUs=4
+\t (00:00:08) CmdLine= f:\cadence\spb_17.2\tools\bin\allegro.exe E:\github\Multi-function_bicycle_data_test\HARDWARE\F407_BIKE_V10A\PCB\F407_BIKE_V10A.brd
+\t (00:00:08) 
+   (00:00:08) Loading axlcore.cxt 
+\t (00:00:10) Opening existing design...
+\d (00:00:10) Design opened: E:/github/Multi-function_bicycle_data_test/HARDWARE/F407_BIKE_V10A/PCB/F407_BIKE_V10A.brd
+\i (00:00:10) trapsize 16458
+\i (00:00:10) trapsize 17065
+\i (00:00:10) trapsize 22124
+\i (00:00:10) trapsize 21882
+\i (00:00:11) generaledit 
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 6.9680 17.3304
+\i (00:00:12) trapsize 10941
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 6.9680 17.3304
+\i (00:00:12) trapsize 5470
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 6.9680 17.3304
+\i (00:00:13) trapsize 2735
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 44.8236 18.1510
+\i (00:00:15) trapsize 5470
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 0.1847 14.8687
+\i (00:00:17) trapsize 2735
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 9.5392 15.7987
+\i (00:00:30) trapsize 5470
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 6.5305 14.4858
+\i (00:00:40) trapsize 10941
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 8.2810 -6.3019
+\i (00:00:41) trapsize 5470
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 8.2810 -6.3019
+\i (00:00:42) trapsize 2735
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 8.2263 -0.5032
+\i (00:00:43) trapsize 1368
+\i (00:00:55) pick grid 9.5666 3.8185
+\t (00:00:55) last pick:  9.6000 3.8000
+\i (00:00:56) pick grid 11.4539 1.7397
+\t (00:00:56) last pick:  11.5000 1.7000
+\i (00:00:58) pick grid 10.1410 0.2080
+\t (00:00:58) last pick:  10.1000 0.2000
+\i (00:00:58) pick grid 9.2111 1.7670
+\t (00:00:58) last pick:  9.2000 1.8000
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 12.1651 -0.6673
+\i (00:01:14) trapsize 2735
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out 12.1651 -0.7767
+\i (00:01:15) trapsize 5470
+\i (00:01:16) zoom in 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom in 52.6466 -0.1203
+\i (00:01:16) trapsize 2735
+\i (00:01:16) zoom in 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom in 52.6466 -0.0656
+\i (00:01:16) trapsize 1368
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out 50.0482 -1.1870
+\i (00:01:24) trapsize 2735
+\i (00:01:25) zoom out 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom out 50.1029 -1.2417
+\i (00:01:25) trapsize 5470
+\i (00:01:37) zoom out 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 49.2276 2.5877
+\i (00:01:37) trapsize 10941
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in 54.0141 28.1894
+\i (00:01:39) trapsize 5470
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in 54.0141 28.1894
+\i (00:01:39) trapsize 2735
+\i (00:01:42) zoom out 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom out 58.9375 29.4476
+\i (00:01:42) trapsize 5470
+\i (00:01:42) zoom in 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom in 58.3905 40.4980
+\i (00:01:42) trapsize 2735
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 59.9222 33.3317
+\i (00:02:21) trapsize 5470
+\i (00:02:26) zoom in 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom in 8.3905 15.4980
+\i (00:02:26) trapsize 2735
+\i (00:04:24) zoom out 1 
+\i (00:04:24) setwindow pcb
+\i (00:04:24) zoom out 33.4453 18.7803
+\i (00:04:24) trapsize 5470
+\i (00:04:32) exit 
+\t (00:04:32)     Journal end - Wed May 02 15:21:00 2018

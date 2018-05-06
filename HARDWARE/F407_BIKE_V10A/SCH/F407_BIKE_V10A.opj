@@ -228,7 +228,7 @@
       (Path "Design Resources" ".\f407_bike_v10a.dsn" "MAIN")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "04 SENSOR"))
+      (Select "Design Resources" ".\f407_bike_v10a.dsn" "MAIN" "03 MODULE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -238,7 +238,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1186 52 419")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1186 52 419")
         (Scroll "343 110")
         (Zoom "100")
         (Occurrence "/"))
@@ -249,7 +249,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1238 104 471")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1238 104 471")
         (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
